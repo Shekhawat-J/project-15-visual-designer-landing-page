@@ -1,0 +1,72 @@
+@media only screen and (max-width:800px) {
+    
+    /* navigation bar */
+    .nav{
+        justify-content: space-around;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    
+    .list-items{
+        display: none;
+    }
+    .bar{
+        display: flex;
+    }
+    .bar img{
+        width: 40px;
+        filter: invert(1);
+    }
+
+    /* hero section 1 */
+    .section-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sec-1-right-side{
+        /* width: fit-content; */
+        margin-top: 2rem;
+    }
+
+    /* hero section 2 */
+
+
+    /* background color with color value "#181818 */
+    .absolute{
+        display: none;
+    }
+
+    /* Feature Project heading */
+    .heading{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading-left h1{
+        text-align: center;
+    }
+    .heading-left p{
+        text-align: center;
+    }
+    .heading-right button{
+        margin-top: 1rem;
+    }
+
+    /* hero section 4 */
+    .section-4{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 1rem 0.50rem;
+    }
+    .sec-4-left h1{
+        text-align: center;
+    }
+    .sec-4-left p{
+        text-align: center;
+    }
+    .sec-4-right button{
+        margin-top: 1rem;
+    }
+}
