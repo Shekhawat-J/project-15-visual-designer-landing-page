@@ -217,9 +217,11 @@ body{
 }
 .sec-2-bottom-right-top{
     display: flex; 
+    /* flex-wrap: wrap; */
 }
 .sec-2-bottom-right-bottom{
     display: flex;
+    /* flex-wrap: wrap; */
 
 }
 .small-box{
